@@ -1,0 +1,22 @@
+{
+  "name": "arweave-sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createAndFund": "npx ts-node createAndFundWallet.ts",
+    "store": "npx ts-node store.ts",
+    "getFile": "npx ts-node getFile.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@irys/query": "^0.0.9",
+    "@irys/sdk": "^0.2.11"
+  }
+}
