@@ -1,7 +1,7 @@
 ## Configure Arweave Localnet
 - Run: npx arlocal
 
-*This will create a localnet of Arweave.*
+*This will create a localnet of Arweave at port 1984.*
 
 ## Create and Fund Wallet
 - Run: npm run createAndFund

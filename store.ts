@@ -3,7 +3,7 @@ import { arweave } from './config/arweaveLocal';
 
 (async () => {
 
-    // Replace with your file location
+  // Replace with your file location
   const imageData = fs.readFileSync(`images/myImage.png`);
 
   let key = JSON.parse(fs.readFileSync("wallet.json", "utf-8"));
